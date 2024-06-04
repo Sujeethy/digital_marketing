@@ -26,7 +26,7 @@ $(document).ready(function() {
     });
 
     const totalSlides = services.length;
-    const slideToShow = 4; // Number of slides to show at a time
+    const slideToShow = 4; 
     const slideWidth = $('.service-card').outerWidth();
     const sliderWidth = slideWidth * totalSlides;
     let currentSlide = 0;
@@ -69,11 +69,9 @@ $(document).ready(function() {
 
     updateSlider();
 
-    // Other parts of your code...
-
-    // Other parts of your code...
+    
     element=$(".growth-card")
-        // Function to check if the target section is in the viewport
+        
         function isInViewport(element) {
             var windowHeight = $(window).height(),
                 scrollTop = $(window).scrollTop(),
@@ -88,22 +86,22 @@ $(document).ready(function() {
         }
     
     
-        // Function to start the animation when the target section is in the viewport
+        
         function startAnimation() {
             console.log("hi")
             if (isInViewport('.growth-card')) {
                 animateNumbers();
-                // Unbind scroll event to prevent multiple triggers
+                
                 $(window).off('scroll', startAnimation);
             }
         }
     
-        // Bind scroll event to start the animation
+       
         $(window).on('scroll', startAnimation);
     
     
 function animateNumbers() {
-    // Your number animation logic here
+    
 
 
     
@@ -114,13 +112,13 @@ function animateNumbers() {
         winAwards: 75
     };
 
-    // Iterate over each growth card
+
     
         Object.keys(targetNumbers).forEach(function(key) {
             var currentNumber = 0;
             $('#' + key).text(currentNumber + "+");
     
-            var duration = 5000 / targetNumbers[key]; // Calculate duration based on target number
+            var duration = 5000 / targetNumbers[key]; 
     
             var interval = setInterval(function() {
                 currentNumber++;
@@ -160,7 +158,7 @@ function animateNumbers() {
         }
     }
 
-    // AJAX form submission
+    
     $("#ajaxForm").submit(function(e) {
         e.preventDefault();
         var action = $(this).attr("action");
