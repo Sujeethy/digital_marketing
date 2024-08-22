@@ -1,13 +1,13 @@
 $(document).ready(function() {
     const services = [
-        { img: 'https://source.unsplash.com/random/350x500?sig=1', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
-        { img: 'https://source.unsplash.com/random/350x500?sig=2', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
-        { img: 'https://source.unsplash.com/random/350x500?sig=3', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
-        { img: 'https://source.unsplash.com/random/350x500?sig=4', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
-        { img: 'https://source.unsplash.com/random/350x500?sig=5', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
-        { img: 'https://source.unsplash.com/random/350x500?sig=6', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
-        { img: 'https://source.unsplash.com/random/350x500?sig=7', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
-        { img: 'https://source.unsplash.com/random/350x500?sig=8', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' }
+        { img: 'https://picsum.photos/350/500?random=1', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
+        { img: 'https://picsum.photos/350/500?random=2', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
+        { img: 'https://picsum.photos/350/500?random=3', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
+        { img: 'https://picsum.photos/350/500?random=4', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
+        { img: 'https://picsum.photos/350/500?random=5', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
+        { img: 'https://picsum.photos/350/500?random=6', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
+        { img: 'https://picsum.photos/350/500?random=7', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' },
+        { img: 'https://picsum.photos/350/500?random=8', title: 'WEB DEVELOPMENT', description: 'Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque.' }
     ];
 
     services.forEach(service => {
